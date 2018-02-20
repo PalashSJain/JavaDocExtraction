@@ -1,0 +1,1089 @@
+{  
+   "packages":[  
+      {  
+         "name":"java.applet",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/applet/package-summary.html",
+         "description":"Provides the classes necessary to create an applet and the classes an applet uses to communicate with its applet context."
+      },
+      {  
+         "name":"java.awt",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/awt/package-summary.html",
+         "description":"Contains all of the classes for creating user interfaces and for painting graphics and images."
+      },
+      {  
+         "name":"java.awt.color",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/awt/color/package-summary.html",
+         "description":"Provides classes for color spaces."
+      },
+      {  
+         "name":"java.awt.datatransfer",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/awt/datatransfer/package-summary.html",
+         "description":"Provides interfaces and classes for transferring data between and within applications."
+      },
+      {  
+         "name":"java.awt.dnd",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/awt/dnd/package-summary.html",
+         "description":"Drag and Drop is a direct manipulation gesture found in many Graphical User Interface systems that provides a mechanism to transfer information between two entities logically associated with presentation elements in the GUI."
+      },
+      {  
+         "name":"java.awt.event",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/awt/event/package-summary.html",
+         "description":"Provides interfaces and classes for dealing with different types of events fired by AWT components."
+      },
+      {  
+         "name":"java.awt.font",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/awt/font/package-summary.html",
+         "description":"Provides classes and interface relating to fonts."
+      },
+      {  
+         "name":"java.awt.geom",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/awt/geom/package-summary.html",
+         "description":"Provides the Java 2D classes for defining and performing operations on objects related to two-dimensional geometry."
+      },
+      {  
+         "name":"java.awt.im",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/awt/im/package-summary.html",
+         "description":"Provides classes and interfaces for the input method framework."
+      },
+      {  
+         "name":"java.awt.im.spi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/awt/im/spi/package-summary.html",
+         "description":"Provides interfaces that enable the development of input methods that can be used with any Java runtime environment."
+      },
+      {  
+         "name":"java.awt.image",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/awt/image/package-summary.html",
+         "description":"Provides classes for creating and modifying images."
+      },
+      {  
+         "name":"java.awt.image.renderable",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/awt/image/renderable/package-summary.html",
+         "description":"Provides classes and interfaces for producing rendering-independent images."
+      },
+      {  
+         "name":"java.awt.print",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/awt/print/package-summary.html",
+         "description":"Provides classes and interfaces for a general printing API."
+      },
+      {  
+         "name":"java.beans",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/beans/package-summary.html",
+         "description":"Contains classes related to developing beans -- components based on the JavaBeans™ architecture."
+      },
+      {  
+         "name":"java.beans.beancontext",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/beans/beancontext/package-summary.html",
+         "description":"Provides classes and interfaces relating to bean context."
+      },
+      {  
+         "name":"java.io",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/io/package-summary.html",
+         "description":"Provides for system input and output through data streams, serialization and the file system."
+      },
+      {  
+         "name":"java.lang",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/lang/package-summary.html",
+         "description":"Provides classes that are fundamental to the design of the Java programming language."
+      },
+      {  
+         "name":"java.lang.annotation",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/lang/annotation/package-summary.html",
+         "description":"Provides library support for the Java programming language annotation facility."
+      },
+      {  
+         "name":"java.lang.instrument",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/lang/instrument/package-summary.html",
+         "description":"Provides services that allow Java programming language agents to instrument programs running on the JVM."
+      },
+      {  
+         "name":"java.lang.invoke",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/lang/invoke/package-summary.html",
+         "description":"The java.lang.invoke package contains dynamic language support provided directly by the Java core class libraries and virtual machine."
+      },
+      {  
+         "name":"java.lang.management",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/lang/management/package-summary.html",
+         "description":"Provides the management interfaces for monitoring and management of the Java virtual machine and other components in the Java runtime."
+      },
+      {  
+         "name":"java.lang.ref",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/lang/ref/package-summary.html",
+         "description":"Provides reference-object classes, which support a limited degree of interaction with the garbage collector."
+      },
+      {  
+         "name":"java.lang.reflect",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/lang/reflect/package-summary.html",
+         "description":"Provides classes and interfaces for obtaining reflective information about classes and objects."
+      },
+      {  
+         "name":"java.math",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/math/package-summary.html",
+         "description":"Provides classes for performing arbitrary-precision integer arithmetic (BigInteger) and arbitrary-precision decimal arithmetic (BigDecimal)."
+      },
+      {  
+         "name":"java.net",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/net/package-summary.html",
+         "description":"Provides the classes for implementing networking applications."
+      },
+      {  
+         "name":"java.nio",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/nio/package-summary.html",
+         "description":"Defines buffers, which are containers for data, and provides an overview of the other NIO packages."
+      },
+      {  
+         "name":"java.nio.channels",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/nio/channels/package-summary.html",
+         "description":"Defines channels, which represent connections to entities that are capable of performing I/O operations, such as files and sockets; defines selectors, for multiplexed, non-blocking I/O operations."
+      },
+      {  
+         "name":"java.nio.channels.spi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/nio/channels/spi/package-summary.html",
+         "description":"Service-provider classes for the java.nio.channels package."
+      },
+      {  
+         "name":"java.nio.charset",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/nio/charset/package-summary.html",
+         "description":"Defines charsets, decoders, and encoders, for translating between bytes and Unicode characters."
+      },
+      {  
+         "name":"java.nio.charset.spi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/nio/charset/spi/package-summary.html",
+         "description":"Service-provider classes for the java.nio.charset package."
+      },
+      {  
+         "name":"java.nio.file",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/nio/file/package-summary.html",
+         "description":"Defines interfaces and classes for the Java virtual machine to access files, file attributes, and file systems."
+      },
+      {  
+         "name":"java.nio.file.attribute",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/nio/file/attribute/package-summary.html",
+         "description":"Interfaces and classes providing access to file and file system attributes."
+      },
+      {  
+         "name":"java.nio.file.spi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/nio/file/spi/package-summary.html",
+         "description":"Service-provider classes for the java.nio.file package."
+      },
+      {  
+         "name":"java.rmi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/rmi/package-summary.html",
+         "description":"Provides the RMI package."
+      },
+      {  
+         "name":"java.rmi.activation",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/rmi/activation/package-summary.html",
+         "description":"Provides support for RMI Object Activation."
+      },
+      {  
+         "name":"java.rmi.dgc",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/rmi/dgc/package-summary.html",
+         "description":"Provides classes and interface for RMI distributed garbage-collection (DGC)."
+      },
+      {  
+         "name":"java.rmi.registry",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/rmi/registry/package-summary.html",
+         "description":"Provides a class and two interfaces for the RMI registry."
+      },
+      {  
+         "name":"java.rmi.server",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/rmi/server/package-summary.html",
+         "description":"Provides classes and interfaces for supporting the server side of RMI."
+      },
+      {  
+         "name":"java.security",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/security/package-summary.html",
+         "description":"Provides the classes and interfaces for the security framework."
+      },
+      {  
+         "name":"java.security.acl",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/security/acl/package-summary.html",
+         "description":"The classes and interfaces in this package have been superseded by classes in the java.security package."
+      },
+      {  
+         "name":"java.security.cert",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/security/cert/package-summary.html",
+         "description":"Provides classes and interfaces for parsing and managing certificates, certificate revocation lists (CRLs), and certification paths."
+      },
+      {  
+         "name":"java.security.interfaces",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/security/interfaces/package-summary.html",
+         "description":"Provides interfaces for generating RSA (Rivest, Shamir and Adleman AsymmetricCipher algorithm) keys as defined in the RSA Laboratory Technical Note PKCS#1, and DSA (Digital Signature Algorithm) keys as defined in NIST's FIPS-186."
+      },
+      {  
+         "name":"java.security.spec",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/security/spec/package-summary.html",
+         "description":"Provides classes and interfaces for key specifications and algorithm parameter specifications."
+      },
+      {  
+         "name":"java.sql",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/sql/package-summary.html",
+         "description":"Provides the API for accessing and processing data stored in a data source (usually a relational database) using the JavaTM programming language."
+      },
+      {  
+         "name":"java.text",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/text/package-summary.html",
+         "description":"Provides classes and interfaces for handling text, dates, numbers, and messages in a manner independent of natural languages."
+      },
+      {  
+         "name":"java.text.spi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/text/spi/package-summary.html",
+         "description":"Service provider classes for the classes in the java.text package."
+      },
+      {  
+         "name":"java.time",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html",
+         "description":"The main API for dates, times, instants, and durations."
+      },
+      {  
+         "name":"java.time.chrono",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/time/chrono/package-summary.html",
+         "description":"Generic API for calendar systems other than the default ISO."
+      },
+      {  
+         "name":"java.time.format",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/time/format/package-summary.html",
+         "description":"Provides classes to print and parse dates and times."
+      },
+      {  
+         "name":"java.time.temporal",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/time/temporal/package-summary.html",
+         "description":"Access to date and time using fields and units, and date time adjusters."
+      },
+      {  
+         "name":"java.time.zone",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/time/zone/package-summary.html",
+         "description":"Support for time-zones and their rules."
+      },
+      {  
+         "name":"java.util",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html",
+         "description":"Contains the collections framework, legacy collection classes, event model, date and time facilities, internationalization, and miscellaneous utility classes (a string tokenizer, a random-number generator, and a bit array)."
+      },
+      {  
+         "name":"java.util.concurrent",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/package-summary.html",
+         "description":"Utility classes commonly useful in concurrent programming."
+      },
+      {  
+         "name":"java.util.concurrent.atomic",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/package-summary.html",
+         "description":"A small toolkit of classes that support lock-free thread-safe programming on single variables."
+      },
+      {  
+         "name":"java.util.concurrent.locks",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/package-summary.html",
+         "description":"Interfaces and classes providing a framework for locking and waiting for conditions that is distinct from built-in synchronization and monitors."
+      },
+      {  
+         "name":"java.util.function",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html",
+         "description":"Functional interfaces provide target types for lambda expressions and method references."
+      },
+      {  
+         "name":"java.util.jar",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/util/jar/package-summary.html",
+         "description":"Provides classes for reading and writing the JAR (Java ARchive) file format, which is based on the standard ZIP file format with an optional manifest file."
+      },
+      {  
+         "name":"java.util.logging",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/util/logging/package-summary.html",
+         "description":"Provides the classes and interfaces of the JavaTM 2 platform's core logging facilities."
+      },
+      {  
+         "name":"java.util.prefs",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/util/prefs/package-summary.html",
+         "description":"This package allows applications to store and retrieve user and system preference and configuration data."
+      },
+      {  
+         "name":"java.util.regex",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/util/regex/package-summary.html",
+         "description":"Classes for matching character sequences against patterns specified by regular expressions."
+      },
+      {  
+         "name":"java.util.spi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/util/spi/package-summary.html",
+         "description":"Service provider classes for the classes in the java.util package."
+      },
+      {  
+         "name":"java.util.stream",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html",
+         "description":"Classes to support functional-style operations on streams of elements, such as map-reduce transformations on collections."
+      },
+      {  
+         "name":"java.util.zip",
+         "href":"https://docs.oracle.com/javase/8/docs/api/java/util/zip/package-summary.html",
+         "description":"Provides classes for reading and writing the standard ZIP and GZIP file formats."
+      },
+      {  
+         "name":"javax.accessibility",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/accessibility/package-summary.html",
+         "description":"Defines a contract between user-interface components and an assistive technology that provides access to those components."
+      },
+      {  
+         "name":"javax.activation",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/activation/package-summary.html",
+         "description":""
+      },
+      {  
+         "name":"javax.activity",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/activity/package-summary.html",
+         "description":"Contains Activity service related exceptions thrown by the ORB machinery during unmarshalling."
+      },
+      {  
+         "name":"javax.annotation",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/annotation/package-summary.html",
+         "description":""
+      },
+      {  
+         "name":"javax.annotation.processing",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/annotation/processing/package-summary.html",
+         "description":"Facilities for declaring annotation processors and for allowing annotation processors to communicate with an annotation processing tool environment."
+      },
+      {  
+         "name":"javax.crypto",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/crypto/package-summary.html",
+         "description":"Provides the classes and interfaces for cryptographic operations."
+      },
+      {  
+         "name":"javax.crypto.interfaces",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/crypto/interfaces/package-summary.html",
+         "description":"Provides interfaces for Diffie-Hellman keys as defined in RSA Laboratories' PKCS #3."
+      },
+      {  
+         "name":"javax.crypto.spec",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/crypto/spec/package-summary.html",
+         "description":"Provides classes and interfaces for key specifications and algorithm parameter specifications."
+      },
+      {  
+         "name":"javax.imageio",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/imageio/package-summary.html",
+         "description":"The main package of the Java Image I/O API."
+      },
+      {  
+         "name":"javax.imageio.event",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/imageio/event/package-summary.html",
+         "description":"A package of the Java Image I/O API dealing with synchronous notification of events during the reading and writing of images."
+      },
+      {  
+         "name":"javax.imageio.metadata",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/imageio/metadata/package-summary.html",
+         "description":"A package of the Java Image I/O API dealing with reading and writing metadata."
+      },
+      {  
+         "name":"javax.imageio.plugins.bmp",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/imageio/plugins/bmp/package-summary.html",
+         "description":"Package containing the public classes used by the built-in BMP plug-in."
+      },
+      {  
+         "name":"javax.imageio.plugins.jpeg",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/imageio/plugins/jpeg/package-summary.html",
+         "description":"Classes supporting the built-in JPEG plug-in."
+      },
+      {  
+         "name":"javax.imageio.spi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/imageio/spi/package-summary.html",
+         "description":"A package of the Java Image I/O API containing the plug-in interfaces for readers, writers, transcoders, and streams, and a runtime registry."
+      },
+      {  
+         "name":"javax.imageio.stream",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/imageio/stream/package-summary.html",
+         "description":"A package of the Java Image I/O API dealing with low-level I/O from files and streams."
+      },
+      {  
+         "name":"javax.jws",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/jws/package-summary.html",
+         "description":""
+      },
+      {  
+         "name":"javax.jws.soap",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/jws/soap/package-summary.html",
+         "description":""
+      },
+      {  
+         "name":"javax.lang.model",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/lang/model/package-summary.html",
+         "description":"Classes and hierarchies of packages used to model the Java programming language."
+      },
+      {  
+         "name":"javax.lang.model.element",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/lang/model/element/package-summary.html",
+         "description":"Interfaces used to model elements of the Java programming language."
+      },
+      {  
+         "name":"javax.lang.model.type",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/lang/model/type/package-summary.html",
+         "description":"Interfaces used to model Java programming language types."
+      },
+      {  
+         "name":"javax.lang.model.util",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/lang/model/util/package-summary.html",
+         "description":"Utilities to assist in the processing of program elements and types."
+      },
+      {  
+         "name":"javax.management",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/management/package-summary.html",
+         "description":"Provides the core classes for the Java Management Extensions."
+      },
+      {  
+         "name":"javax.management.loading",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/management/loading/package-summary.html",
+         "description":"Provides the classes which implement advanced dynamic loading."
+      },
+      {  
+         "name":"javax.management.modelmbean",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/management/modelmbean/package-summary.html",
+         "description":"Provides the definition of the ModelMBean classes."
+      },
+      {  
+         "name":"javax.management.monitor",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/management/monitor/package-summary.html",
+         "description":"Provides the definition of the monitor classes."
+      },
+      {  
+         "name":"javax.management.openmbean",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/management/openmbean/package-summary.html",
+         "description":"Provides the open data types and Open MBean descriptor classes."
+      },
+      {  
+         "name":"javax.management.relation",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/management/relation/package-summary.html",
+         "description":"Provides the definition of the Relation Service."
+      },
+      {  
+         "name":"javax.management.remote",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/management/remote/package-summary.html",
+         "description":"Interfaces for remote access to JMX MBean servers."
+      },
+      {  
+         "name":"javax.management.remote.rmi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/management/remote/rmi/package-summary.html",
+         "description":"The RMI connector is a connector for the JMX Remote API that uses RMI to transmit client requests to a remote MBean server."
+      },
+      {  
+         "name":"javax.management.timer",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/management/timer/package-summary.html",
+         "description":"Provides the definition of the Timer MBean."
+      },
+      {  
+         "name":"javax.naming",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/naming/package-summary.html",
+         "description":"Provides the classes and interfaces for accessing naming services."
+      },
+      {  
+         "name":"javax.naming.directory",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/naming/directory/package-summary.html",
+         "description":"Extends the javax.naming package to provide functionality for accessing directory services."
+      },
+      {  
+         "name":"javax.naming.event",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/naming/event/package-summary.html",
+         "description":"Provides support for event notification when accessing naming and directory services."
+      },
+      {  
+         "name":"javax.naming.ldap",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/naming/ldap/package-summary.html",
+         "description":"Provides support for LDAPv3 extended operations and controls."
+      },
+      {  
+         "name":"javax.naming.spi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/naming/spi/package-summary.html",
+         "description":""
+      },
+      {  
+         "name":"javax.net",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/net/package-summary.html",
+         "description":"Provides classes for networking applications."
+      },
+      {  
+         "name":"javax.net.ssl",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/net/ssl/package-summary.html",
+         "description":"Provides classes for the secure socket package."
+      },
+      {  
+         "name":"javax.print",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/print/package-summary.html",
+         "description":"Provides the principal classes and interfaces for the JavaTM Print Service API."
+      },
+      {  
+         "name":"javax.print.attribute",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/print/attribute/package-summary.html",
+         "description":"Provides classes and interfaces that describe the types of JavaTM Print Service attributes and how they can be collected into attribute sets."
+      },
+      {  
+         "name":"javax.print.attribute.standard",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/print/attribute/standard/package-summary.html",
+         "description":"Package javax.print.attribute.standard contains classes for specific printing attributes."
+      },
+      {  
+         "name":"javax.print.event",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/print/event/package-summary.html",
+         "description":"Package javax.print.event contains event classes and listener interfaces."
+      },
+      {  
+         "name":"javax.rmi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/rmi/package-summary.html",
+         "description":"Contains user APIs for RMI-IIOP."
+      },
+      {  
+         "name":"javax.rmi.CORBA",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/rmi/CORBA/package-summary.html",
+         "description":"Contains portability APIs for RMI-IIOP."
+      },
+      {  
+         "name":"javax.rmi.ssl",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/rmi/ssl/package-summary.html",
+         "description":"Provides implementations of RMIClientSocketFactory and RMIServerSocketFactory over the Secure Sockets Layer (SSL) or Transport Layer Security (TLS) protocols."
+      },
+      {  
+         "name":"javax.script",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/script/package-summary.html",
+         "description":"The scripting API consists of interfaces and classes that define Java TM Scripting Engines and provides a framework for their use in Java applications."
+      },
+      {  
+         "name":"javax.security.auth",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/security/auth/package-summary.html",
+         "description":"This package provides a framework for authentication and authorization."
+      },
+      {  
+         "name":"javax.security.auth.callback",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/security/auth/callback/package-summary.html",
+         "description":"This package provides the classes necessary for services to interact with applications in order to retrieve information (authentication data including usernames or passwords, for example) or to display information (error and warning messages, for example)."
+      },
+      {  
+         "name":"javax.security.auth.kerberos",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/security/auth/kerberos/package-summary.html",
+         "description":"This package contains utility classes related to the Kerberos network authentication protocol."
+      },
+      {  
+         "name":"javax.security.auth.login",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/security/auth/login/package-summary.html",
+         "description":"This package provides a pluggable authentication framework."
+      },
+      {  
+         "name":"javax.security.auth.spi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/security/auth/spi/package-summary.html",
+         "description":"This package provides the interface to be used for implementing pluggable authentication modules."
+      },
+      {  
+         "name":"javax.security.auth.x500",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/security/auth/x500/package-summary.html",
+         "description":"This package contains the classes that should be used to store X500 Principal and X500 Private Credentials in a Subject."
+      },
+      {  
+         "name":"javax.security.cert",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/security/cert/package-summary.html",
+         "description":"Provides classes for public key certificates."
+      },
+      {  
+         "name":"javax.security.sasl",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/security/sasl/package-summary.html",
+         "description":"Contains class and interfaces for supporting SASL."
+      },
+      {  
+         "name":"javax.sound.midi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/sound/midi/package-summary.html",
+         "description":"Provides interfaces and classes for I/O, sequencing, and synthesis of MIDI (Musical Instrument Digital Interface) data."
+      },
+      {  
+         "name":"javax.sound.midi.spi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/sound/midi/spi/package-summary.html",
+         "description":"Supplies interfaces for service providers to implement when offering new MIDI devices, MIDI file readers and writers, or sound bank readers."
+      },
+      {  
+         "name":"javax.sound.sampled",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/sound/sampled/package-summary.html",
+         "description":"Provides interfaces and classes for capture, processing, and playback of sampled audio data."
+      },
+      {  
+         "name":"javax.sound.sampled.spi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/sound/sampled/spi/package-summary.html",
+         "description":"Supplies abstract classes for service providers to subclass when offering new audio devices, sound file readers and writers, or audio format converters."
+      },
+      {  
+         "name":"javax.sql",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/sql/package-summary.html",
+         "description":"Provides the API for server side data source access and processing from the JavaTM programming language."
+      },
+      {  
+         "name":"javax.sql.rowset",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/sql/rowset/package-summary.html",
+         "description":"Standard interfaces and base classes for JDBC RowSet implementations."
+      },
+      {  
+         "name":"javax.sql.rowset.serial",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/sql/rowset/serial/package-summary.html",
+         "description":"Provides utility classes to allow serializable mappings between SQL types and data types in the Java programming language."
+      },
+      {  
+         "name":"javax.sql.rowset.spi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/sql/rowset/spi/package-summary.html",
+         "description":"The standard classes and interfaces that a third party vendor has to use in its implementation of a synchronization provider."
+      },
+      {  
+         "name":"javax.swing",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/package-summary.html",
+         "description":"Provides a set of \"lightweight\" (all-Java language) components that, to the maximum degree possible, work the same on all platforms."
+      },
+      {  
+         "name":"javax.swing.border",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/border/package-summary.html",
+         "description":"Provides classes and interface for drawing specialized borders around a Swing component."
+      },
+      {  
+         "name":"javax.swing.colorchooser",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/colorchooser/package-summary.html",
+         "description":"Contains classes and interfaces used by the JColorChooser component."
+      },
+      {  
+         "name":"javax.swing.event",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/event/package-summary.html",
+         "description":"Provides for events fired by Swing components."
+      },
+      {  
+         "name":"javax.swing.filechooser",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/filechooser/package-summary.html",
+         "description":"Contains classes and interfaces used by the JFileChooser component."
+      },
+      {  
+         "name":"javax.swing.plaf",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/plaf/package-summary.html",
+         "description":"Provides one interface and many abstract classes that Swing uses to provide its pluggable look-and-feel capabilities."
+      },
+      {  
+         "name":"javax.swing.plaf.basic",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/plaf/basic/package-summary.html",
+         "description":"Provides user interface objects built according to the Basic look and feel."
+      },
+      {  
+         "name":"javax.swing.plaf.metal",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/plaf/metal/package-summary.html",
+         "description":"Provides user interface objects built according to the Java look and feel (once codenamed Metal), which is the default look and feel."
+      },
+      {  
+         "name":"javax.swing.plaf.multi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/plaf/multi/package-summary.html",
+         "description":"Provides user interface objects that combine two or more look and feels."
+      },
+      {  
+         "name":"javax.swing.plaf.nimbus",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/plaf/nimbus/package-summary.html",
+         "description":"Provides user interface objects built according to the cross-platform Nimbus look and feel."
+      },
+      {  
+         "name":"javax.swing.plaf.synth",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/plaf/synth/package-summary.html",
+         "description":"Synth is a skinnable look and feel in which all painting is delegated."
+      },
+      {  
+         "name":"javax.swing.table",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/table/package-summary.html",
+         "description":"Provides classes and interfaces for dealing with javax.swing.JTable."
+      },
+      {  
+         "name":"javax.swing.text",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/text/package-summary.html",
+         "description":"Provides classes and interfaces that deal with editable and noneditable text components."
+      },
+      {  
+         "name":"javax.swing.text.html",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/text/html/package-summary.html",
+         "description":"Provides the class HTMLEditorKit and supporting classes for creating HTML text editors."
+      },
+      {  
+         "name":"javax.swing.text.html.parser",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/text/html/parser/package-summary.html",
+         "description":"Provides the default HTML parser, along with support classes."
+      },
+      {  
+         "name":"javax.swing.text.rtf",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/text/rtf/package-summary.html",
+         "description":"Provides a class (RTFEditorKit) for creating Rich-Text-Format text editors."
+      },
+      {  
+         "name":"javax.swing.tree",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/tree/package-summary.html",
+         "description":"Provides classes and interfaces for dealing with javax.swing.JTree."
+      },
+      {  
+         "name":"javax.swing.undo",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/swing/undo/package-summary.html",
+         "description":"Allows developers to provide support for undo/redo in applications such as text editors."
+      },
+      {  
+         "name":"javax.tools",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/tools/package-summary.html",
+         "description":"Provides interfaces for tools which can be invoked from a program, for example, compilers."
+      },
+      {  
+         "name":"javax.transaction",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/transaction/package-summary.html",
+         "description":"Contains three exceptions thrown by the ORB machinery during unmarshalling."
+      },
+      {  
+         "name":"javax.transaction.xa",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/transaction/xa/package-summary.html",
+         "description":"Provides the API that defines the contract between the transaction manager and the resource manager, which allows the transaction manager to enlist and delist resource objects (supplied by the resource manager driver) in JTA transactions."
+      },
+      {  
+         "name":"javax.xml",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/package-summary.html",
+         "description":""
+      },
+      {  
+         "name":"javax.xml.bind",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/bind/package-summary.html",
+         "description":"Provides a runtime binding framework for client applications including unmarshalling, marshalling, and validation capabilities."
+      },
+      {  
+         "name":"javax.xml.bind.annotation",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/bind/annotation/package-summary.html",
+         "description":"Defines annotations for customizing Java program elements to XML Schema mapping."
+      },
+      {  
+         "name":"javax.xml.bind.annotation.adapters",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/bind/annotation/adapters/package-summary.html",
+         "description":"XmlAdapter and its spec-defined sub-classes to allow arbitrary Java classes to be used with JAXB."
+      },
+      {  
+         "name":"javax.xml.bind.attachment",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/bind/attachment/package-summary.html",
+         "description":"This package is implemented by a MIME-based package processor that enables the interpretation and creation of optimized binary data within an MIME-based package format."
+      },
+      {  
+         "name":"javax.xml.bind.helpers",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/bind/helpers/package-summary.html",
+         "description":"JAXB Provider Use Only: Provides partial default implementations for some of the javax.xml.bind interfaces."
+      },
+      {  
+         "name":"javax.xml.bind.util",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/bind/util/package-summary.html",
+         "description":"Useful client utility classes."
+      },
+      {  
+         "name":"javax.xml.crypto",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/crypto/package-summary.html",
+         "description":"Common classes for XML cryptography."
+      },
+      {  
+         "name":"javax.xml.crypto.dom",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/crypto/dom/package-summary.html",
+         "description":"DOM-specific classes for the javax.xml.crypto package."
+      },
+      {  
+         "name":"javax.xml.crypto.dsig",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/crypto/dsig/package-summary.html",
+         "description":"Classes for generating and validating XML digital signatures."
+      },
+      {  
+         "name":"javax.xml.crypto.dsig.dom",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/crypto/dsig/dom/package-summary.html",
+         "description":"DOM-specific classes for the javax.xml.crypto.dsig package."
+      },
+      {  
+         "name":"javax.xml.crypto.dsig.keyinfo",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/crypto/dsig/keyinfo/package-summary.html",
+         "description":"Classes for parsing and processing KeyInfo elements and structures."
+      },
+      {  
+         "name":"javax.xml.crypto.dsig.spec",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/crypto/dsig/spec/package-summary.html",
+         "description":"Parameter classes for XML digital signatures."
+      },
+      {  
+         "name":"javax.xml.datatype",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/datatype/package-summary.html",
+         "description":"XML/Java Type Mappings."
+      },
+      {  
+         "name":"javax.xml.namespace",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/namespace/package-summary.html",
+         "description":"XML Namespace processing."
+      },
+      {  
+         "name":"javax.xml.parsers",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/parsers/package-summary.html",
+         "description":"Provides classes allowing the processing of XML documents."
+      },
+      {  
+         "name":"javax.xml.soap",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/soap/package-summary.html",
+         "description":"Provides the API for creating and building SOAP messages."
+      },
+      {  
+         "name":"javax.xml.stream",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/stream/package-summary.html",
+         "description":""
+      },
+      {  
+         "name":"javax.xml.stream.events",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/stream/events/package-summary.html",
+         "description":""
+      },
+      {  
+         "name":"javax.xml.stream.util",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/stream/util/package-summary.html",
+         "description":""
+      },
+      {  
+         "name":"javax.xml.transform",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/transform/package-summary.html",
+         "description":"This package defines the generic APIs for processing transformation instructions, and performing a transformation from source to result."
+      },
+      {  
+         "name":"javax.xml.transform.dom",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/transform/dom/package-summary.html",
+         "description":"This package implements DOM-specific transformation APIs."
+      },
+      {  
+         "name":"javax.xml.transform.sax",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/transform/sax/package-summary.html",
+         "description":"This package implements SAX2-specific transformation APIs."
+      },
+      {  
+         "name":"javax.xml.transform.stax",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/transform/stax/package-summary.html",
+         "description":"Provides for StAX-specific transformation APIs."
+      },
+      {  
+         "name":"javax.xml.transform.stream",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/transform/stream/package-summary.html",
+         "description":"This package implements stream- and URI- specific transformation APIs."
+      },
+      {  
+         "name":"javax.xml.validation",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/validation/package-summary.html",
+         "description":"This package provides an API for validation of XML documents."
+      },
+      {  
+         "name":"javax.xml.ws",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/ws/package-summary.html",
+         "description":"This package contains the core JAX-WS APIs."
+      },
+      {  
+         "name":"javax.xml.ws.handler",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/ws/handler/package-summary.html",
+         "description":"This package defines APIs for message handlers."
+      },
+      {  
+         "name":"javax.xml.ws.handler.soap",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/ws/handler/soap/package-summary.html",
+         "description":"This package defines APIs for SOAP message handlers."
+      },
+      {  
+         "name":"javax.xml.ws.http",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/ws/http/package-summary.html",
+         "description":"This package defines APIs specific to the HTTP binding."
+      },
+      {  
+         "name":"javax.xml.ws.soap",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/ws/soap/package-summary.html",
+         "description":"This package defines APIs specific to the SOAP binding."
+      },
+      {  
+         "name":"javax.xml.ws.spi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/ws/spi/package-summary.html",
+         "description":"This package defines SPIs for JAX-WS."
+      },
+      {  
+         "name":"javax.xml.ws.spi.http",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/ws/spi/http/package-summary.html",
+         "description":"Provides HTTP SPI that is used for portable deployment of JAX-WS web services in containers(for e.g."
+      },
+      {  
+         "name":"javax.xml.ws.wsaddressing",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/ws/wsaddressing/package-summary.html",
+         "description":"This package defines APIs related to WS-Addressing."
+      },
+      {  
+         "name":"javax.xml.xpath",
+         "href":"https://docs.oracle.com/javase/8/docs/api/javax/xml/xpath/package-summary.html",
+         "description":"This package provides an object-model neutral API for the evaluation of XPath expressions and access to the evaluation environment."
+      },
+      {  
+         "name":"org.ietf.jgss",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/ietf/jgss/package-summary.html",
+         "description":"This package presents a framework that allows application developers to make use of security services like authentication, data integrity and data confidentiality from a variety of underlying security mechanisms like Kerberos, using a unified API."
+      },
+      {  
+         "name":"org.omg.CORBA",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/CORBA/package-summary.html",
+         "description":"Provides the mapping of the OMG CORBA APIs to the JavaTM programming language, including the class ORB, which is implemented so that a programmer can use it as a fully-functional Object Request Broker (ORB)."
+      },
+      {  
+         "name":"org.omg.CORBA_2_3",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/CORBA_2_3/package-summary.html",
+         "description":"The CORBA_2_3 package defines additions to existing CORBA interfaces in the Java[tm] Standard Edition 6. These changes occurred in recent revisions to the CORBA API defined by the OMG. The new methods were added to interfaces derived from the corresponding interfaces in the CORBA package. This provides backward compatibility and avoids breaking the JCK tests."
+      },
+      {  
+         "name":"org.omg.CORBA_2_3.portable",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/CORBA_2_3/portable/package-summary.html",
+         "description":"Provides methods for the input and output of value types, and contains other updates to the org/omg/CORBA/portable package."
+      },
+      {  
+         "name":"org.omg.CORBA.DynAnyPackage",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/CORBA/DynAnyPackage/package-summary.html",
+         "description":"Provides the exceptions used with the DynAny interface (InvalidValue, Invalid, InvalidSeq, and TypeMismatch)."
+      },
+      {  
+         "name":"org.omg.CORBA.ORBPackage",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/CORBA/ORBPackage/package-summary.html",
+         "description":"Provides the exception InvalidName, which is thrown by the method ORB.resolve_initial_references and the exception InconsistentTypeCode, which is thrown by the Dynamic Any creation methods in the ORB class."
+      },
+      {  
+         "name":"org.omg.CORBA.portable",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/CORBA/portable/package-summary.html",
+         "description":"Provides a portability layer, that is, a set of ORB APIs that makes it possible for code generated by one vendor to run on another vendor's ORB."
+      },
+      {  
+         "name":"org.omg.CORBA.TypeCodePackage",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/CORBA/TypeCodePackage/package-summary.html",
+         "description":"Provides the user-defined exceptions BadKind and Bounds, which are thrown by methods in in the class TypeCode."
+      },
+      {  
+         "name":"org.omg.CosNaming",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/CosNaming/package-summary.html",
+         "description":"Provides a naming service for Java IDL."
+      },
+      {  
+         "name":"org.omg.CosNaming.NamingContextExtPackage",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/CosNaming/NamingContextExtPackage/package-summary.html",
+         "description":"This package contains the following classes, which are used in org.omg.CosNaming.NamingContextExt:"
+      },
+      {  
+         "name":"org.omg.CosNaming.NamingContextPackage",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/CosNaming/NamingContextPackage/package-summary.html",
+         "description":"This package contains Exception classes for the org.omg.CosNaming package."
+      },
+      {  
+         "name":"org.omg.Dynamic",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/Dynamic/package-summary.html",
+         "description":"This package contains the Dynamic module specified in the OMG Portable Interceptor specification, http://cgi.omg.org/cgi-bin/doc?ptc/2000-08-06, section 21.9."
+      },
+      {  
+         "name":"org.omg.DynamicAny",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/DynamicAny/package-summary.html",
+         "description":"Provides classes and interfaces that enable traversal of the data value associated with an any at runtime, and extraction of the primitive constituents of the data value."
+      },
+      {  
+         "name":"org.omg.DynamicAny.DynAnyFactoryPackage",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/DynamicAny/DynAnyFactoryPackage/package-summary.html",
+         "description":"This package contains classes and exceptions from the DynAnyFactory interface of the DynamicAny module specified in the OMG The Common Object Request Broker: Architecture and Specification, http://cgi.omg.org/cgi-bin/doc?formal/99-10-07, section 9.2.2."
+      },
+      {  
+         "name":"org.omg.DynamicAny.DynAnyPackage",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/DynamicAny/DynAnyPackage/package-summary.html",
+         "description":"This package contains classes and exceptions from the DynAny interface of the DynamicAny module specified in the OMG The Common Object Request Broker: Architecture and Specification, http://cgi.omg.org/cgi-bin/doc?formal/99-10-07, section 9.2."
+      },
+      {  
+         "name":"org.omg.IOP",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/IOP/package-summary.html",
+         "description":"This package contains the IOP module specified in the OMG document The Common Object Request Broker: Architecture and Specification, http://cgi.omg.org/cgi-bin/doc?formal/99-10-07, section 13.6."
+      },
+      {  
+         "name":"org.omg.IOP.CodecFactoryPackage",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/IOP/CodecFactoryPackage/package-summary.html",
+         "description":"This package contains the exceptions specified in the IOP::CodeFactory interface (as part of the Portable Interceptors spec)."
+      },
+      {  
+         "name":"org.omg.IOP.CodecPackage",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/IOP/CodecPackage/package-summary.html",
+         "description":"This package is generated from the IOP::Codec IDL interface definition."
+      },
+      {  
+         "name":"org.omg.Messaging",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/Messaging/package-summary.html",
+         "description":"This package contains the Messaging module specified in the OMG CORBA Messaging specification, http://cgi.omg.org/cgi-bin/doc?formal/99-10-07."
+      },
+      {  
+         "name":"org.omg.PortableInterceptor",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/PortableInterceptor/package-summary.html",
+         "description":"Provides a mechanism to register ORB hooks through which ORB services can intercept the normal flow of execution of the ORB."
+      },
+      {  
+         "name":"org.omg.PortableInterceptor.ORBInitInfoPackage",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/PortableInterceptor/ORBInitInfoPackage/package-summary.html",
+         "description":"This package contains the exceptions and typedefs from the ORBInitInfo local interface of the PortableInterceptor module specified in the OMG Portable Interceptor specification, http://cgi.omg.org/cgi-bin/doc?ptc/2000-08-06, section 21.7.2."
+      },
+      {  
+         "name":"org.omg.PortableServer",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/PortableServer/package-summary.html",
+         "description":"Provides classes and interfaces for making the server side of your applications portable across multivendor ORBs."
+      },
+      {  
+         "name":"org.omg.PortableServer.CurrentPackage",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/PortableServer/CurrentPackage/package-summary.html",
+         "description":"Provides method implementations with access to the identity of the object on which the method was invoked."
+      },
+      {  
+         "name":"org.omg.PortableServer.POAManagerPackage",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/PortableServer/POAManagerPackage/package-summary.html",
+         "description":"Encapsulates the processing state of the POAs it is associated with."
+      },
+      {  
+         "name":"org.omg.PortableServer.POAPackage",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/PortableServer/POAPackage/package-summary.html",
+         "description":"Allows programmers to construct object implementations that are portable between different ORB products."
+      },
+      {  
+         "name":"org.omg.PortableServer.portable",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/PortableServer/portable/package-summary.html",
+         "description":"Provides classes and interfaces for making the server side of your applications portable across multivendor ORBs."
+      },
+      {  
+         "name":"org.omg.PortableServer.ServantLocatorPackage",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/PortableServer/ServantLocatorPackage/package-summary.html",
+         "description":"Provides classes and interfaces for locating the servant."
+      },
+      {  
+         "name":"org.omg.SendingContext",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/SendingContext/package-summary.html",
+         "description":"Provides support for the marshalling of value types."
+      },
+      {  
+         "name":"org.omg.stub.java.rmi",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/omg/stub/java/rmi/package-summary.html",
+         "description":"Contains RMI-IIOP Stubs for the Remote types that occur in the java.rmi package."
+      },
+      {  
+         "name":"org.w3c.dom",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/w3c/dom/package-summary.html",
+         "description":"Provides the interfaces for the Document Object Model (DOM)."
+      },
+      {  
+         "name":"org.w3c.dom.bootstrap",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/w3c/dom/bootstrap/package-summary.html",
+         "description":""
+      },
+      {  
+         "name":"org.w3c.dom.events",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/w3c/dom/events/package-summary.html",
+         "description":""
+      },
+      {  
+         "name":"org.w3c.dom.ls",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/w3c/dom/ls/package-summary.html",
+         "description":""
+      },
+      {  
+         "name":"org.w3c.dom.views",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/w3c/dom/views/package-summary.html",
+         "description":""
+      },
+      {  
+         "name":"org.xml.sax",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/xml/sax/package-summary.html",
+         "description":"This package provides the core SAX APIs."
+      },
+      {  
+         "name":"org.xml.sax.ext",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/xml/sax/ext/package-summary.html",
+         "description":"This package contains interfaces to SAX2 facilities that conformant SAX drivers won't necessarily support."
+      },
+      {  
+         "name":"org.xml.sax.helpers",
+         "href":"https://docs.oracle.com/javase/8/docs/api/org/xml/sax/helpers/package-summary.html",
+         "description":"This package contains \"helper\" classes, including support for bootstrapping SAX-based applications."
+      }
+   ]
+}

@@ -1,0 +1,22 @@
+var $output = {};
+
+$output.packages = getPackages();
+
+_log($output);
+
+function getPackages(){
+	var $packageRows = _collect("_row", "/.*/", _in(_table("overviewSummary")));
+	var $packages = [];
+	
+	for (var $i = 1; $i < $packageRows.length; $i++) {
+		_highlight($packageRows[$i]);
+		var $info = {};
+		$info.name = _getText(_link(0, _in($packageRows[$i])));
+		$info.href = _getAttribute(_link(0, _in($packageRows[$i])), "href");
+		$info.description = _getText(_cell(0, _under(_tableHeader("Description"), 10), _in($packageRows[$i])));
+		_log($info);
+		$packages.push($info);
+	}
+	
+	return $packages;
+}
