@@ -1,22 +1,105 @@
-var $output = {};
-
-$output.packages = getPackages();
-
-_log($output);
+var $output = {
+};
 
 function getPackages(){
 	var $packageRows = _collect("_row", "/.*/", _in(_table("overviewSummary")));
 	var $packages = [];
-	
+
 	for (var $i = 1; $i < $packageRows.length; $i++) {
 		_highlight($packageRows[$i]);
-		var $info = {};
+		var $info = {
+		};
 		$info.name = _getText(_link(0, _in($packageRows[$i])));
 		$info.href = _getAttribute(_link(0, _in($packageRows[$i])), "href");
 		$info.description = _getText(_cell(0, _under(_tableHeader("Description"), 10), _in($packageRows[$i])));
-		_log($info);
 		$packages.push($info);
 	}
-	
+
 	return $packages;
 }
+
+function getSummary($summaryType){
+	var $summaries = [];
+	if (_isVisible(_span($summaryType + " Summary"))) {
+		var $table = _parentTable(_span($summaryType + " Summary"));
+		var $rows = _collect("_row", "/.*/", _in($table));
+
+		for (var $i = 1; $i < $rows.length; $i++) {
+			_highlight($rows[$i]);
+			var $info = {
+			};
+			$info.name = _getText(_link(0, _in($rows[$i])));
+			$info.href = _getAttribute(_link(0, _in($rows[$i])), "href");
+			$info.description = _getText(_cell(0, _under(_tableHeader($summaryType), 10), _in($rows[$i])));
+			$summaries.push($info);
+		}
+	}
+	return $summaries;
+}
+
+function getEnumSummary(){
+	return getSummary("Enum");
+}
+
+function getExceptionSummary(){
+	return getSummary("Exception");
+}
+
+function getErrorSummary(){
+	return getSummary("Error");
+}
+
+function getInterfaceSummary(){
+//	var $interfaces = [];
+//	if (_isVisible(_span("Interface Summary"))) {
+//		var $table = _parentTable(_span("Interface Summary"));
+//		var $rows = _collect("_row", "/.*/", _in($table));
+//
+//		for (var $i = 1; $i < $rows.length; $i++) {
+//			_highlight($rows[$i]);
+//			var $info = {
+//			};
+//			$info.name = _getText(_link(0, _in($rows[$i])));
+//			$info.href = _getAttribute(_link(0, _in($rows[$i])), "href");
+//			$info.description = _getText(_cell(0, _under(_tableHeader("Interface"), 10), _in($rows[$i])));
+//			$interfaces.push($info);
+//		}
+//	}
+//	return $interfaces;
+	return getSummary("Interface");
+}
+
+function getClassSummary(){
+//	var $interfaces = [];
+//	if (_isVisible(_span("Class Summary"))) {
+//		var $table = _parentTable(_span("Class Summary"));
+//		var $rows = _collect("_row", "/.*/", _in($table));
+//
+//		for (var $i = 1; $i < $rows.length; $i++) {
+//			_highlight($rows[$i]);
+//			var $info = {
+//			};
+//			$info.name = _getText(_link(0, _in($rows[$i])));
+//			$info.href = _getAttribute(_link(0, _in($rows[$i])), "href");
+//			$info.description = _getText(_cell(0, _under(_tableHeader("Class"), 10), _in($rows[$i])));
+//			$interfaces.push($info);
+//		}
+//	}
+//	return $interfaces;
+	return getSummary("Class");
+}
+
+//$output.packages = getPackages();
+var $packages = JSON.parse(_readFile("packages.json")).packages;
+for (var $i = 0; $i < $packages.length; $i++) {
+	var $package = $packages[$i];
+	_navigateTo($package.href, true);
+	$package["Interface Summary"] = getInterfaceSummary();
+	$package["Class Summary"] = getClassSummary();
+	$package["Enum Summary"] = getEnumSummary();
+	$package["Exception Summary"] = getExceptionSummary();
+	$package["Error Summary"] = getErrorSummary();
+	$packages[$i] = $package;
+}
+_log($packages);
+_writeFile(JSON.stringify($packages), "all_documentation.json", true);
