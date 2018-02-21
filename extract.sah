@@ -30,7 +30,7 @@ function getSummary($summaryType){
 			};
 			$info.name = _getText(_link(0, _in($rows[$i])));
 			$info.href = _getAttribute(_link(0, _in($rows[$i])), "href");
-			$info.description = _getText(_cell(0, _under(_tableHeader($summaryType), 10), _in($rows[$i])));
+			$info.description = _getText(_cell(0, _under(_tableHeader("Description", _in($table)), 10), _in($rows[$i])));
 			$summaries.push($info);
 		}
 	}
@@ -50,43 +50,30 @@ function getErrorSummary(){
 }
 
 function getInterfaceSummary(){
-//	var $interfaces = [];
-//	if (_isVisible(_span("Interface Summary"))) {
-//		var $table = _parentTable(_span("Interface Summary"));
-//		var $rows = _collect("_row", "/.*/", _in($table));
-//
-//		for (var $i = 1; $i < $rows.length; $i++) {
-//			_highlight($rows[$i]);
-//			var $info = {
-//			};
-//			$info.name = _getText(_link(0, _in($rows[$i])));
-//			$info.href = _getAttribute(_link(0, _in($rows[$i])), "href");
-//			$info.description = _getText(_cell(0, _under(_tableHeader("Interface"), 10), _in($rows[$i])));
-//			$interfaces.push($info);
-//		}
-//	}
-//	return $interfaces;
 	return getSummary("Interface");
 }
 
 function getClassSummary(){
-//	var $interfaces = [];
-//	if (_isVisible(_span("Class Summary"))) {
-//		var $table = _parentTable(_span("Class Summary"));
-//		var $rows = _collect("_row", "/.*/", _in($table));
-//
-//		for (var $i = 1; $i < $rows.length; $i++) {
-//			_highlight($rows[$i]);
-//			var $info = {
-//			};
-//			$info.name = _getText(_link(0, _in($rows[$i])));
-//			$info.href = _getAttribute(_link(0, _in($rows[$i])), "href");
-//			$info.description = _getText(_cell(0, _under(_tableHeader("Class"), 10), _in($rows[$i])));
-//			$interfaces.push($info);
-//		}
-//	}
-//	return $interfaces;
 	return getSummary("Class");
+}
+
+function getAnnotationsTypeSummary(){
+	var $summaries = [];
+	if (_isVisible(_span("Annotation Types Summary"))) {
+		var $table = _parentTable(_span("Annotation Types Summary"));
+		var $rows = _collect("_row", "/.*/", _in($table));
+
+		for (var $i = 1; $i < $rows.length; $i++) {
+			_highlight($rows[$i]);
+			var $info = {
+			};
+			$info.name = _getText(_link(0, _in($rows[$i])));
+			$info.href = _getAttribute(_link(0, _in($rows[$i])), "href");
+			$info.description = _getText(_cell(0, _under(_tableHeader("Description", _in($table)), 10), _in($rows[$i])));
+			$summaries.push($info);
+		}
+	}
+	return $summaries;
 }
 
 //$output.packages = getPackages();
@@ -99,6 +86,7 @@ for (var $i = 0; $i < $packages.length; $i++) {
 	$package["Enum Summary"] = getEnumSummary();
 	$package["Exception Summary"] = getExceptionSummary();
 	$package["Error Summary"] = getErrorSummary();
+	$package["Annotation Types Summary"] = getAnnotationsTypeSummary();
 	$packages[$i] = $package;
 }
 _log($packages);
