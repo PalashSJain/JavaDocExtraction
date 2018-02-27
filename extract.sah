@@ -76,18 +76,125 @@ function getAnnotationsTypeSummary(){
 	return $summaries;
 }
 
-//$output.packages = getPackages();
-var $packages = JSON.parse(_readFile("packages.json")).packages;
+function getFields(){
+	if (!_isVisible(_parentTable(_span("Fields")))) return [];
+	
+	_startLookInside(_parentTable(_span("Fields")));
+	var $rows = _collect("_row", "/.*/");
+	var $methods = [];
+	for (var $i = 1; $i < $rows.length; $i++) {
+		var $row = $rows[$i];
+		_highlight($row);
+		var $method = {
+		};
+		$method["Modifier and Type"] = {};
+		var $return = {};
+		var $cell = _cell(0, _under(_tableHeader("Modifier and Type"), 10), _in($row));
+		$return["name"] = _getText($cell);
+		$return["href"] = _isVisible(_link(0, _in($cell))) ? _getAttribute(_link(0, _in($cell)), "href") : "";
+		$method["Modifier and Type"] = $return;
+
+		var $links = _collect("_link", "/.*/", _in(_cell(0, _under(_tableHeader("Field and Description")), _in($row))));
+		$method["name"] = _getText($links[0]);
+		$method["description"] = _isVisible(_div(0, _in($row))) ? _getText(_div(0, _in($row))) : "";
+		
+		$methods.push($method);
+	}
+	_stopLookInside();
+	return $methods;
+}
+
+function getMethods(){
+	if (!_isVisible(_parentTable(_span("All Methods")))) return [];
+	
+	_startLookInside(_parentTable(_span("All Methods")));
+	var $rows = _collect("_row", "/.*/");
+	var $methods = [];
+	for (var $i = 1; $i < $rows.length; $i++) {
+		var $row = $rows[$i];
+		_highlight($row);
+		var $method = {
+		};
+		$method["Modifier and Type"] = {};
+		var $return = {};
+		var $cell = _cell(0, _under(_tableHeader("Modifier and Type"), 10), _in($row));
+		$return["name"] = _getText($cell);
+		$return["href"] = _isVisible(_link(0, _in($cell))) ? _getAttribute(_link(0, _in($cell)), "href") : "";
+		$method["Modifier and Type"] = $return;
+
+		var $links = _collect("_link", "/.*/", _in(_cell(0, _under(_tableHeader("Method and Description")), _in($row))));
+		$method["name"] = _getText($links[0]);
+		$method["parameters"] = [];
+		for (var $j = 1; $j < $links.length; $j++) {
+			var $obj = {
+			};
+			// name, url, package
+			$obj["name"] = _getText($links[$j]);
+			$obj["href"] = _getAttribute($links[$j], "href");
+			$obj["package"] = getPackageFromURL($obj["href"], $obj["name"]);
+			$method["parameters"].push($obj);
+		}
+		$method["description"] = _isVisible(_div(0, _in($row))) ? _getText(_div(0, _in($row))) : "";
+		
+		$methods.push($method);
+	}
+	_stopLookInside();
+	return $methods;
+}
+
+function getPackageFromURL($url, $name){
+	return $url.replace("https://docs.oracle.com/javase/8/docs/api/", "").replace("/"+$name+".html", "").split("/").join(".");
+}
+
+var $packages = JSON.parse(_readFile("all_documentation.json"));
+
 for (var $i = 0; $i < $packages.length; $i++) {
 	var $package = $packages[$i];
-	_navigateTo($package.href, true);
-	$package["Interface Summary"] = getInterfaceSummary();
-	$package["Class Summary"] = getClassSummary();
-	$package["Enum Summary"] = getEnumSummary();
-	$package["Exception Summary"] = getExceptionSummary();
-	$package["Error Summary"] = getErrorSummary();
-	$package["Annotation Types Summary"] = getAnnotationsTypeSummary();
-	$packages[$i] = $package;
+	var $interfaces = $package["Interface Summary"];
+	for (var $j = 0; $j < $interfaces.length; $j++) {
+		var $interface = $interfaces[$j];
+		_navigateTo($interface["href"]);
+		
+		$interface["Extends"] = [];
+		$interface["Method Summary"] = getMethods();
+		$interface["Field Summary"] = getFields();
+		
+		var $definition = _getText(_preformatted(0));
+		var $regexp2 = /<.*>/;
+		$definition = $definition.replace($regexp2, "");
+		var $extends = _extract($definition, "/extends (.*)/", true)[0];
+		if (!$extends) continue;
+
+		var $regexp = /<\S+>/g;
+		$extends = $extends.replace($regexp, "");
+		var $extendingInterfaces = $extends.split(", ");
+		$extends = [];
+		for (var $k = 0; $k < $extendingInterfaces.length; $k++) {
+			var $obj = {
+			};
+			$obj["name"] = $extendingInterfaces[$k];
+			$obj["href"] = _isVisible(_link($extendingInterfaces[$k], _in(_preformatted(0)))) ? _getAttribute(_link($extendingInterfaces[$k], _in(_preformatted(0))), "href") : "";
+			$obj["package"] =  _isVisible(_link($extendingInterfaces[$k], _in(_preformatted(0)))) ? getPackageFromURL($obj["href"], $obj["name"]) : "";
+			$extends.push($obj);
+		}
+		$interface["extends"] = $extends;
+		
+		$interfaces[$j] = $interface;
+	}
+	$package["Interface Summary"] = $interfaces;
+	_writeFile(JSON.stringify($packages), "all_documentation_2.json", true);
 }
-_log($packages);
-_writeFile(JSON.stringify($packages), "all_documentation.json", true);
+
+
+//for (var $i = 0; $i < $packages.length; $i++) {
+//	var $package = $packages[$i];
+//	_navigateTo($package.href, true);
+//	$package["Interface Summary"] = getInterfaceSummary();
+//	$package["Class Summary"] = getClassSummary();
+//	$package["Enum Summary"] = getEnumSummary();
+//	$package["Exception Summary"] = getExceptionSummary();
+//	$package["Error Summary"] = getErrorSummary();
+//	$package["Annotation Types Summary"] = getAnnotationsTypeSummary();
+//	$packages[$i] = $package;
+//}
+//_log($packages);
