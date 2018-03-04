@@ -104,6 +104,40 @@ function getFields(){
 	return $methods;
 }
 
+function getConstructors(){
+	if (!_isVisible(_parentTable(_span("Constructors")))) return [];
+	
+	_startLookInside(_parentTable(_span("Constructors")));
+	var $rows = _collect("_row", "/.*/");
+	var $constructors = [];
+	for (var $i = 1; $i < $rows.length; $i++) {
+		var $row = $rows[$i];
+		_highlight($row);
+		var $constructors = {
+		};
+		$constructors["Constructor and Description"] = {};
+
+		var $links = _collect("_link", "/.*/", _in(_cell(0, _under(_tableHeader("Constructor and Description")), _in($row))));
+		
+		$constructor["name"] = _getText($links[0]);
+		$constructor["parameters"] = [];
+		for (var $j = 1; $j < $links.length; $j++) {
+			var $obj = {
+			};
+			// name, url, package
+			$obj["name"] = _getText($links[$j]);
+			$obj["href"] = _getAttribute($links[$j], "href");
+			$obj["package"] = getPackageFromURL($obj["href"], $obj["name"]);
+			$method["parameters"].push($obj);
+		}
+		$constructor["description"] = _isVisible(_div(0, _in($row))) ? _getText(_div(0, _in($row))) : "";
+		
+		$constructors.push($method);
+	}
+	_stopLookInside();
+	return $constructors;
+}
+
 function getMethods(){
 	if (!_isVisible(_parentTable(_span("All Methods")))) return [];
 	
@@ -182,9 +216,33 @@ for (var $i = 0; $i < $packages.length; $i++) {
 		$interfaces[$j] = $interface;
 	}
 	$package["Interface Summary"] = $interfaces;
-	_writeFile(JSON.stringify($packages), "all_documentation_2.json", true);
+	$packages[$i] = $package;
+	_writeFile(JSON.stringify($packages), "all_documentation_interfaces.json", true);
 }
 
+
+var $packages = JSON.parse(_readFile("all_documentation_interfaces.json"));
+for (var $i = 0; $i < $packages.length; $i++) {
+	var $package = $packages[$i];
+	var $classes = $package["Class Summary"];
+	
+	for (var $j = 0; $j < $classes.length; $j++) {
+		var $class = $classes[$j];
+		_navigateTo($class["href"]);
+		
+		$class["Extends"] = {};
+		$class["Implements"] = [];
+		$class["Constructors"] = [];
+		$class["Method Summary"] = getMethods();
+		$class["Field Summary"] = getFields();
+		
+		$classes[$j] = $class;
+	}
+	
+	$package["Class Summary"] = $classes;
+	$packages[$i] = $package;
+	_writeFile(JSON.stringify($packages), "all_documentation_classes.json", true);
+}
 
 //for (var $i = 0; $i < $packages.length; $i++) {
 //	var $package = $packages[$i];
